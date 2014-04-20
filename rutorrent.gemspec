@@ -21,8 +21,8 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  s.add_dependency("json", "~> 1.5.1")
-  s.add_dependency("nokogiri", "~> 1.4.4")
+  s.add_dependency("json")
+  s.add_dependency("nokogiri")
 
   s.add_development_dependency("bundler")
 end
